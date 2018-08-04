@@ -33,6 +33,6 @@ if not isRaining:
 
 ages = [12, 18, 39, 87, 7, 2]    
 for age in ages:
-    isAdult = age > 17;
+    isAdult = age > 17
     if not isAdult:
         print("Being " + str(age) + " does not make you an adult.")
